@@ -67,15 +67,15 @@ double plutoG = 0.071;
 
     // If user chooses 1, print all facts about each planet
     if (choice == 1) {
-        std::cout << "Mercury: " << "Average temperature " << mercuryT << "°C," << " Mass " << mercuryM << " kgs\n";
-        std::cout << "Venus: " << "Average temperature " << venusT << "°C," << " Mass " << venusM << " kgs\n";
-        std::cout << "Earth: " << "Average temperature " << earthT << "°C," << " Mass " << earthM << " kgs\n";
-        std::cout << "Mars: " << "Average temperature " << marsT << "°C," << " Mass " << marsM << " kgs\n";
-        std::cout << "Jupiter: " << "Average temperature " << jupiterT << "°C," << " Mass " << jupiterM << " kgs\n";
-        std::cout << "Saturn: " << "Average temperature " << saturnT << "°C," << " Mass " << saturnM << " kgs\n";
-        std::cout << "Uranus: " << "Average temperature " << uranusT << "°C," << " Mass " << uranusM << " kgs\n";
-        std::cout << "Neptune: " << "Average temperature " << neptuneT << "°C," << " Mass " << neptuneM << " kgs\n";
-        std::cout << "Pluto: " << "Average temperature " << plutoT << "°C," << " Mass " << plutoM << " kgs\n";   
+        std::cout << "Mercury: " << "Average temperature " << mercuryT << "°C," << " Mass " << mercuryM * pow(10, 24) << " kgs\n";
+        std::cout << "Venus: " << "Average temperature " << venusT << "°C," << " Mass " << venusM * pow(10, 24) << " kgs\n";
+        std::cout << "Earth: " << "Average temperature " << earthT << "°C," << " Mass " << earthM * pow(10, 24) << " kgs\n";
+        std::cout << "Mars: " << "Average temperature " << marsT << "°C," << " Mass " << marsM * pow(10, 24) << " kgs\n";
+        std::cout << "Jupiter: " << "Average temperature " << jupiterT << "°C," << " Mass " << jupiterM * pow(10, 24) << " kgs\n";
+        std::cout << "Saturn: " << "Average temperature " << saturnT << "°C," << " Mass " << saturnM * pow(10, 24) << " kgs\n";
+        std::cout << "Uranus: " << "Average temperature " << uranusT << "°C," << " Mass " << uranusM * pow(10, 24) << " kgs\n";
+        std::cout << "Neptune: " << "Average temperature " << neptuneT << "°C," << " Mass " << neptuneM * pow(10, 24) << " kgs\n";
+        std::cout << "Pluto: " << "Average temperature " << plutoT << "°C," << " Mass " << plutoM * pow(10, 24) << " kgs\n";   
     // If user chooses 2, ask for their weight and print their weight on each planet
     }
     else if (choice == 2) {

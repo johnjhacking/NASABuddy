@@ -154,7 +154,7 @@ double plutoG = 0.071;
 
     // if user chooses Mercury, multiply mercuryM by 10 ^ 24 and divide by the mass of the object
     if (planet == 1) {
-        std::cout << "The amount of objects that could fit in Mercury: ";
+        std::cout << "The amount of objects that could fit in Mercury:\n";
         std::cout << "Sheets of Paper: " << mercuryM * pow(10, 24) / sheetofpaperM << "\n";
         std::cout << "Pencils: " << mercuryM * pow(10, 24) / pencilM << "\n";
         std::cout << "Cellphones: " << mercuryM * pow(10, 24) / cellphoneM << "\n";
@@ -169,7 +169,7 @@ double plutoG = 0.071;
         std::cout << "Skyscrapers: " << mercuryM * pow(10, 24) / skyscraperM << "\n";    
     }
     else if (planet == 2) {
-        std::cout << "The amount of objects that could fit in Venus: ";
+        std::cout << "The amount of objects that could fit in Venus:\n";
         std::cout << "Sheets of Paper: " << venusM * pow(10, 24) / sheetofpaperM << "\n";
         std::cout << "Pencils: " << venusM * pow(10, 24) / pencilM << "\n";
         std::cout << "Cellphones: " << venusM * pow(10, 24) / cellphoneM << "\n";
@@ -184,7 +184,7 @@ double plutoG = 0.071;
         std::cout << "Skyscrapers: " << venusM * pow(10, 24) / skyscraperM << "\n";
     }
     else if (planet == 3) {
-        std::cout << "The amount of objects that could fit in Earth: ";
+        std::cout << "The amount of objects that could fit in Earth:\n";
         std::cout << "Sheets of Paper: " << earthM * pow(10, 24) / sheetofpaperM << "\n";
         std::cout << "Pencils: " << earthM * pow(10, 24) / pencilM << "\n";
         std::cout << "Cellphones: " << earthM * pow(10, 24) / cellphoneM << "\n";
@@ -199,7 +199,7 @@ double plutoG = 0.071;
         std::cout << "Skyscrapers: " << earthM * pow(10, 24) / skyscraperM << "\n";
     }
     else if (planet == 4) {
-        std::cout << "The amount of objects that could fit in Mars: ";
+        std::cout << "The amount of objects that could fit in Mars:\n";
         std::cout << "Sheets of Paper: " << marsM * pow(10, 24) / sheetofpaperM << "\n";
         std::cout << "Pencils: " << marsM * pow(10, 24) / pencilM << "\n";
         std::cout << "Cellphones: " << marsM * pow(10, 24) / cellphoneM << "\n";
@@ -214,7 +214,7 @@ double plutoG = 0.071;
         std::cout << "Skyscrapers: " << marsM * pow(10, 24) / skyscraperM << "\n";
     }
     else if (planet == 5) {
-        std::cout << "The amount of objects that could fit in Jupiter: ";
+        std::cout << "The amount of objects that could fit in Jupiter:\n";
         std::cout << "Sheets of Paper: " << jupiterM * pow(10, 24) / sheetofpaperM << "\n";
         std::cout << "Pencils: " << jupiterM * pow(10, 24) / pencilM << "\n";
         std::cout << "Cellphones: " << jupiterM * pow(10, 24) / cellphoneM << "\n";
@@ -229,7 +229,7 @@ double plutoG = 0.071;
         std::cout << "Skyscrapers: " << jupiterM * pow(10, 24) / skyscraperM << "\n";
     }
     else if (planet == 6) {
-        std::cout << "The amount of objects that could fit in Saturn: ";
+        std::cout << "The amount of objects that could fit in Saturn:\n";
         std::cout << "Sheets of Paper: " << saturnM * pow(10, 24) / sheetofpaperM << "\n";
         std::cout << "Pencils: " << saturnM * pow(10, 24) / pencilM << "\n";
         std::cout << "Cellphones: " << saturnM * pow(10, 24) / cellphoneM << "\n";
@@ -244,7 +244,7 @@ double plutoG = 0.071;
         std::cout << "Skyscrapers: " << saturnM * pow(10, 24) / skyscraperM << "\n";
     }
     else if (planet == 7) {
-        std::cout << "The amount of objects that could fit in Uranus: ";
+        std::cout << "The amount of objects that could fit in Uranus:\n";
         std::cout << "Sheets of Paper: " << uranusM * pow(10, 24) / sheetofpaperM << "\n";
         std::cout << "Pencils: " << uranusM * pow(10, 24) / pencilM << "\n";
         std::cout << "Cellphones: " << uranusM * pow(10, 24) / cellphoneM << "\n";
@@ -259,7 +259,7 @@ double plutoG = 0.071;
         std::cout << "Skyscrapers: " << uranusM * pow(10, 24) / skyscraperM << "\n";
     }
     else if (planet == 8) {
-        std::cout << "The amount of objects that could fit in Neptune: ";
+        std::cout << "The amount of objects that could fit in Neptune:\n";
         std::cout << "Sheets of Paper: " << neptuneM * pow(10, 24) / sheetofpaperM << "\n";
         std::cout << "Pencils: " << neptuneM * pow(10, 24) / pencilM << "\n";
         std::cout << "Cellphones: " << neptuneM * pow(10, 24) / cellphoneM << "\n";
@@ -274,7 +274,7 @@ double plutoG = 0.071;
         std::cout << "Skyscrapers: " << neptuneM * pow(10, 24) / skyscraperM << "\n";
     }
     else if (planet == 9) {
-        std::cout << "The amount of objects that could fit in Pluto: ";
+        std::cout << "The amount of objects that could fit in Pluto:\n";
         std::cout << "Sheets of Paper: " << plutoM * pow(10, 24) / sheetofpaperM << "\n";
         std::cout << "Pencils: " << plutoM * pow(10, 24) / pencilM << "\n";
         std::cout << "Cellphones: " << plutoM * pow(10, 24) / cellphoneM << "\n";
